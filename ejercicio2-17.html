@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Ejercicio 2.17</title>
+</head>
+<body>
+    <header id="header" class="alt">
+        <span class="logo"><img src="images/logo.svg" alt="" /></span>
+        <h1>Ejercicio 2.17</h1>
+        <h2>Ejemplo de inclusión de video con iframe/local y local con subtitulos</h2>
+       
+    </header>
+    <table>
+        <tr>
+            <td>
+                <iframe width="350" 
+    src="https://www.youtube.com/embed/8hgNwjTLMRw?si=0E5GG0-ahgbm_eUF" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+            </td>
+            <td>
+                <video controls  poster="./multimedia/pixar-lou.png" muted width="350">
+                    <source src="./multimedia/pixar-lou.mp4" type="video/mp4" >
+                </video>
+            </td>
+            <td>
+                <video controls poster="./multimedia/pixar-lou.png" muted width="350">
+                    <source src="./multimedia/pixar-lou.mp4" type="video/mp4">
+                    <track default kind="subtitles" src="./multimedia/pixar-lou_es.vtt">
+                </video>
+            </td>
+        </tr>
+    </table>
+    <br>
+    
+
+    <footer id="footer">
+        <ul class="actions special">
+            <li><a href="./index.html" class="button">Vuelve a la página principal</a></li>
+        </ul>
+        <br>
+        <section>
+            <h2>Contacta conmigo</h2>
+            <dl class="alt">
+                <dt>Dirección</dt>
+                <dd>Madrid &bull; España</dd>
+                <dt>Teléfono</dt>
+                <dd>(+34) 692 94 11 19</dd>
+                <dt>WhatsApp</dt>
+				<dd>(+66) 080 8314 483</dd>
+                <dt>Email</dt>
+                <dd><a href="arg467@educa.madrid.org">arg467@educa.madrid.org</a></dd>
+            </dl>
+            <ul class="icons">
+                <!--<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>-->
+                <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/ScarlettDuna" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+            </ul>
+        </section>
+        <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    </footer>
+    
+</body>
+</html>

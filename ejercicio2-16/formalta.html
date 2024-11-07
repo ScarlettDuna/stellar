@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de alta</title>
+</head>
+<body>
+    <h1>Complete los siguientes campos para realizar el alta en nuestraweb.com</h1>
+    <form action="post.php" method="post">
+        <fieldset style="background-color: #d59825;">
+            <legend>Datos personales</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="">
+                    </td>
+                    <td>
+                        <label for="apellido">Apellidos</label>
+                        <input type="text" name="apellido" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fechanacimiento">Fecha de nacimiento</label>
+                        <input type="date" name="fechanacimiento" id="">
+                    </td>
+                    <td>
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dni">DNI</label>
+                        <input type="number" name="dni" id="">
+                    </td>
+                    <td>
+                        <label for="telef">Teléfono</label>
+                        <input type="tel" name="telef" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="">
+                    </td>
+                    <td>
+                        <label for="contrasena">Password</label>
+                        <input type="password" name="contrasena" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <label for="sexo">Sexo</label>
+                    <input type="radio" name="sexo" id="">Hombre
+                    <input type="radio" name="sexo" id="">Mujer
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <label for="provnacimiento">Provincia de nacimiento</label>
+                        <select name="provnacimiento" id="">
+                            <option value="1" selected></option>
+                            <option value="2">Andalucia</option>
+                            <option value="3">Aragón</option>
+                            <option value="4">Asturias</option> 
+                            <option value="5">Baleares</option>
+                            <option value="6">Canarias</option>
+                            <option value="7">Cantabria</option>
+                            <option value="8">Castilla la Mancha</option>
+                            <option value="9">Castilla y León</option>
+                            <option value="10">Cataluña</option>
+                            <option value="11">Valencia</option>
+                            <option value="12">Extremadura</option>
+                            <option value="13">Galicia</option>
+                            <option value="14">La Rioja</option>
+                            <option value="15">Madrid</option>
+                            <option value="16">Murcia</option>
+                            <option value="17">Navarra</option>
+                            <option value="18">País Vasco</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            
+        </fieldset>
+        <br>
+        <fieldset style="background-color: #d46c23;">
+            <legend>Datos adicionales</legend>
+            <label for="dispositivos">Dispositivos electrónicos disponibles en el hogar</label>
+            <br>
+            <input type="checkbox" name="dispositivos" id="">PC
+            <br>
+            <input type="checkbox" name="dispositivos" id="">Tableta
+            <br>
+            <input type="checkbox" name="dispositivos" id="">Móvil
+            <br>
+            <label for="estudios">Estudios completados</label>
+            <input type="text" name="estudios" id="">
+            <br>
+            <label for="ingles">Nivel de inglés del 1 al 10</label>
+            <input type="range" name="ingles" min="1" max="10">
+            <br>
+            <label for="html">Editor de HTML favorito</label>
+            <input type="text" name="html" id="">
+        </fieldset>
+        <button type="submit"><a href="./ejercicio2-16.html">Enviar</a></button>
+        <button type="reset">Borrar</button>
+    </form>
+    
+</body>
+</html>
