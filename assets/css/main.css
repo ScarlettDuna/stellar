@@ -71,6 +71,10 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+table td{
+	text-align: center;
+	vertical-align: middle;
+}
 
 /* Basic */
 
