@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3.2</title>
+</head>
+<body>
+    <style>
+        h1 {
+            background: linear-gradient(RebeccaPurple, violet, aqua, aquamarine);
+        }
+        div {
+            width: 350px;
+            height: 350px;
+        }
+        .conico {
+            background: conic-gradient(RebeccaPurple, violet, aqua, aquamarine);
+        }
+        .conico-circular {
+            background: conic-gradient(RebeccaPurple, violet, aqua, aquamarine);
+            border-radius: 50%;
+        }
+        .conico-porcentaje {
+            background: conic-gradient(RebeccaPurple 36deg, violet 36deg  126deg, aqua 126deg 234deg, aquamarine 234deg 360deg);
+            /* pocentajes 10, 25, 30, 35*/
+            border-radius: 50%;
+        }
+        .donut {
+            /* pocentajes 10, 25, 30, 35*/
+            background: 
+                /* radial-gradient(circle, white, 50%) */
+                conic-gradient(RebeccaPurple 36deg, violet 36deg  126deg, aqua 126deg 234deg, aquamarine 234deg 360deg);
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .agujero {
+            position: relative;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            height: 50%;
+            z-index: 2;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+    <h1>Actividad 3.2 de Arantxa Reinoso</h1>
+    <h3>Graciente cónico 4 colores</h3>
+    <div class="conico"></div>
+    <h3>Gradiente cónico con forma de grafico circular</h3>
+    <div class="conico-circular"></div>
+    <h3>Graciente cónico con forma de gráfino circular y un porcentaje para cada color</h3>
+    <div class="conico-porcentaje"></div>
+    <h3>Donut</h3>
+    <div class="donut">
+        <div class="agujero"></div>
+    </div>
+</body>
+</html>

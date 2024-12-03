@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2.22</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-weight: bolder;
+            text-align: center;
+        }
+        th, td {
+            border: 1.5px, solid, black;
+        } 
+        .red {
+            background-color: red;
+            color: white;
+            width: 75px;
+        }
+        .grey {
+            background-color: grey;
+            width: 60px;
+            height: 50px;
+            font-size: 1.5rem;
+            font-weight: 550;
+        }
+        .azul {
+            background-color: blue;
+        }
+        li {
+            color: red;
+            text-align: left;
+        }
+        .amarillo {
+            background-color: yellow;
+            height: 100px;
+        }
+        img {
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <td></td>
+            <td colspan="3" class="azul"><img src="./Imágenes/iphone-finito.PNG" alt=""></td>
+            <td colspan="2" class="azul"><img src="./Imágenes/iphone-grande.PNG" alt=""></td>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="red">Capacidad</td>
+                <td class="grey">2GB</td>
+                <td class="grey">4GB</td>
+                <td class="grey">8GB</td>
+                <td class="grey">32GB</td>
+                <td class="grey">2GB</td>
+            </tr>
+            <tr>
+                <td class="red">Colores</td>
+                <td>Blanco</td>
+                <td>
+                    <ul>
+                        <li>Negro</li>
+                        <li>Rosa</li>
+                        <li>Dorado</li>
+                    </ul>
+                </td>
+                <td>Negro</td>
+                <td colspan="2" class="azul">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="red">Pantalla</td>
+                <td colspan="3" class="azul">3 pulgadas</td>
+                <td colspan="2" class="azul">7 pulgadas</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="red">Tiempo de carga</td>
+                <td rowspan="2" colspan="3" class="azul">1 hora</td>
+                <td colspan="2" class="amarillo">5 horas</td>
+            </tr>
+            <tr>
+                <td class="azul" colspan="2">30 minutos para 75%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
