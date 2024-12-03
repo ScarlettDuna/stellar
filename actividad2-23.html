@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2.23</title>
+    <style>
+        h4 {
+            color: red;
+            font-weight: lighter;
+            margin-bottom: 0;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: left;
+        }
+        thead td::first-letter{
+            font-size: 2em;
+        }
+        table td {
+            border: 1px solid black;
+        }
+        tbody td:first-child {
+            background-color: green;
+        }
+        .recreo {
+            background-color: yellow;
+            font-weight: bolder;
+            text-align: center;
+        }
+        label span {
+            color: red;
+        }
+        input[type="email"] {
+            border: 1px solid brown;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h4>HORARIO DE CLASE CURSO 2021-2022 de ARANTXA REINOSO</h2>
+    <table>
+        <thead>
+            <td>Horas</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Matemáticas</td>
+                <td>Lengua</td>
+                <td>Inglés</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td colspan="5" class="recreo">RECREO</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Inglés</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matemáticas</td>
+                <td>Inglés</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="" method="post">
+        <label for="email">Email <span>*</span></label>
+        <input type="email" name="email" id="" placeholder="Inserte email del destinatario">
+        <br><br>
+        <input type="submit" value="Enviar Horario">
+        
+    </form>
+</body>
+</html>
