@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2.24</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        #superior {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            justify-content: space-between;
+        }
+        #superior div {
+            border: 2px dotted black;
+            background-color: rgb(150, 150, 150);
+            width: 33%;
+            padding: 2%;
+        }
+        #derecho {
+            text-align: end;
+        }
+        #articulo {
+            display: flex;
+            height: 80%;
+            justify-content: center;
+            align-items: center;
+            padding: 0 15%;
+            font-size: 1.2rem;
+        }
+        footer {
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 100%;
+            background-color: rgb(150, 150, 150);
+        }
+    </style>
+</head>
+<body>
+    <div id="superior">
+        <div id="izquiero">Texto lado izquierdo</div>
+        <div id="derecho">Texto lado derecho</div>
+    </div>
+    <div id="articulo">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores perspiciatis laboriosam officiis! Exercitationem, voluptatum omnis tempora deleniti, deserunt suscipit quasi beatae, illo consequuntur harum maxime. Natus ea impedit sunt pariatur eos reprehenderit esse, dolor soluta, iste deserunt libero consequatur!</span>
+    </div>
+    <footer>Pie de documento</footer>
+</body>
+</html>
